@@ -1,11 +1,9 @@
-import styles from '../components/card.module.css'
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Grid from '@material-ui/core/Grid';
+import styles from "../components/card.module.css";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
 
 const useStyles = makeStyles({
   root: {
@@ -16,39 +14,45 @@ const useStyles = makeStyles({
   },
 });
 
-const DetailsCard = ({infoInsurance}) => {
-    const classes = useStyles();
+const DetailsCard = ({ infoInsurance }) => {
+  const classes = useStyles();
 
-    return ( 
-       <div className={styles.divCard}> 
-       <Grid container spacing={1}>
-       <Grid item xs={12}>
-         {Object.values(infoInsurance).map((elem) => { return (  
-    <Card className={classes.root} key={elem.name}>
-      <CardActionArea>
-      <CardMedia
-          className={classes.media}
-          image={elem.image}
-          title="Card with details"
-        />
-        <CardContent>
-          <h1 gutterBottom variant="h5" component="h2" className={styles.title}>
-          {elem.name}
-          </h1>
-          <p className={styles.paragraph}>
-          { elem.description }
-          </p>
-          <p className={styles.paragraph}>
-           PRECIO ${ elem.price } 
-          </p>
-        </CardContent> 
-      </CardActionArea>
-    </Card> )})}
-    </Grid>
-    </Grid>
+  return (
+    <div className={classes.root}>
+      {Object.values(infoInsurance).map((elem) => {
+        return (
+          <Card className={styles.divCard}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={elem.image}
+                title="Card with details"
+              />
+              <button
+                className={styles.buttonLabel}
+                variant="contained"
+                color="primary"
+              >
+                Plan
+              </button>
+              <CardContent>
+                <h1
+                  gutterBottom
+                  variant="h5"
+                  component="h2"
+                  className={styles.title}
+                >
+                  {elem.name}
+                </h1>
+                <p className={styles.paragraph}>{elem.description}</p>
+                <p className={styles.paragraph}>Precio ${elem.price}</p>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        );
+      })}
     </div>
+  );
+};
 
-     );
-}
- 
 export default DetailsCard;

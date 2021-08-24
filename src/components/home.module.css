@@ -1,47 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .buttonSearch {
-display: flex;
-flex-direction: row;
-padding: 8px 32px;
-width: 113px;
-height: 48px;
-background: #1F61F7;
-box-shadow: 0px 10px 16px rgba(18, 25, 84, 0.07);
-border-radius: 1000px;
-font-family: Poppins;
-font-weight: bold;
-font-size: 16px;
-line-height: 32px;
-text-align: center;
-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 32px;
+  width: 113px;
+  height: 48px;
+  background: #1f61f7;
+  box-shadow: 0px 10px 16px rgba(18, 25, 84, 0.07);
+  border-radius: 1000px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
 }
 
 .select {
-    background: #FFFFFF;
-    border: 1px solid #DDE3ED;
-    box-sizing: border-box;
-    border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #dde3ed;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .options {
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #AFBACC;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #afbacc;
 }
-.select:focus  {
-    background: #FFFFFF;
-    border: 2px solid #1F61F7;
-    box-sizing: border-box;
-    border-radius: 4px;
+.select:focus {
+  background: #ffffff;
+  border: 2px solid #1f61f7;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .options:focus {
-font-family: Poppins;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-color: #1F61F7;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1f61f7;
 }
-

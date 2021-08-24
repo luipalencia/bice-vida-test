@@ -1,26 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-* {
- font-family: Poppins;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.cardImg {
+  display: block;
+  margin: auto;
+}
+.paragraph {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #58606e;
 }
 
-.cardImg {
-    display: block;
-    margin: auto;
-    }
-    .paragraph {
+.title {
+  width: 216px;
+  height: 24px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #060b25;
+}
 
-        font-family: Poppins;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: -0.2px;
-        color: #58606E;}
-    
-        .title {width: 216px;
-height: 24px;
-font-family: Poppins;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: -0.2px;
-color: #060B25;}
+.divCard {
+  width: 328px;
+  background: #ffffff;
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  display: table;
+  margin: 0 auto;
+}
+
+.buttonLabel {
+  width: 52px;
+  height: 20px;
+  background: #1f61f7;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+  color: #f5f7fa;
+  margin-left: 5px;
+  margin-top: 5px;
+}

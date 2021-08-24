@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+ font-family: Poppins;
+}
+
+.cardImg {
+    display: block;
+    margin: auto;
+    }
+    .paragraph {
+
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #58606E;}
+    
+        .title {width: 216px;
+height: 24px;
+font-family: Poppins;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+color: #060B25;}

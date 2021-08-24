@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.divCard {
+width: 328px;
+height: 272px;
+background: #FFFFFF;
+border: 1px solid #DDE3ED;
+border-radius: 8px;
+}
+
+.title {width: 216px;
+height: 24px;
+font-family: Poppins;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+color: #060B25;}
+
+.paragraph {width: 51px;
+height: 24px;
+font-family: Poppins;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.2px;
+color: #58606E;}
+
+img {width: 328px;
+height: 192px;}
+
+/* label {width: 52px;
+height: 20px;
+background: #1F61F7;
+border-radius: 4px;}
+
+.label-text {font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.2px;
+color: #F5F7FA;} */

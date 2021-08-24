@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
 import NotFound from './views/NotFound'
-import Home from './views/Home'
+import Home from './views/Home.js'
 import {
   BrowserRouter as Router,
   Switch,

@@ -32,17 +32,16 @@
   margin: 0 auto;
 }
 
-.buttonLabel {
+.divLabel {
   width: 52px;
-  height: 20px;
   background: #1f61f7;
   border-radius: 4px;
   font-family: Poppins;
   font-weight: 600;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: -0.2px;
   color: #f5f7fa;
   margin-left: 5px;
   margin-top: 5px;
+  text-align: center;
 }

@@ -21,20 +21,20 @@ const DetailsCard = ({ infoInsurance }) => {
     <div className={classes.root}>
       {Object.values(infoInsurance).map((elem) => {
         return (
-          <Card className={styles.divCard}>
+          <Card className={styles.divCard} key={elem.name}>
             <CardActionArea>
               <CardMedia
                 className={classes.media}
                 image={elem.image}
                 title="Card with details"
               />
-              <button
-                className={styles.buttonLabel}
+              <div
+                className={styles.divLabel}
                 variant="contained"
                 color="primary"
-              >
+                disabled>
                 Plan
-              </button>
+              </div>
               <CardContent>
                 <h1
                   gutterBottom
